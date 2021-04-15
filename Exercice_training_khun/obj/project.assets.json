@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ToolBox.MVVM/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ToolBox.MVVM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToolBox.MVVM.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ToolBox.MVVM/1.0.0": {
+      "type": "project",
+      "path": "../../../../Library/ToolBox.MVVM/ToolBox.MVVM/ToolBox.MVVM.csproj",
+      "msbuildProject": "../../../../Library/ToolBox.MVVM/ToolBox.MVVM/ToolBox.MVVM.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ToolBox.MVVM >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\BARCA\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\BARCA\\OneDrive\\Formation .net Core\\WPF -MVVM\\Exercices\\Exercice_training_khun\\Exercice_training_khun\\Exercice_training_khun\\Exercice_training_khun.csproj",
+      "projectName": "Exercice_training_khun",
+      "projectPath": "C:\\Users\\BARCA\\OneDrive\\Formation .net Core\\WPF -MVVM\\Exercices\\Exercice_training_khun\\Exercice_training_khun\\Exercice_training_khun\\Exercice_training_khun.csproj",
+      "packagesPath": "C:\\Users\\BARCA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BARCA\\OneDrive\\Formation .net Core\\WPF -MVVM\\Exercices\\Exercice_training_khun\\Exercice_training_khun\\Exercice_training_khun\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\BARCA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\BARCA\\OneDrive\\Formation .net Core\\WPF -MVVM\\Library\\ToolBox.MVVM\\ToolBox.MVVM\\ToolBox.MVVM.csproj": {
+              "projectPath": "C:\\Users\\BARCA\\OneDrive\\Formation .net Core\\WPF -MVVM\\Library\\ToolBox.MVVM\\ToolBox.MVVM\\ToolBox.MVVM.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
